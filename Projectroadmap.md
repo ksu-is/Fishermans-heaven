@@ -1,8 +1,8 @@
 - [ ] Create a repository
-- [ ] Create 
-- [ ]
-- [ ]
-- [ ]
+- [ ] Create Readme and license
+- [ ] Create roadmap
+- [ ] Find sources for project
+- [ ] Run the example codes and see how they work
 - [ ]
 - [ ]
 - [ ]
