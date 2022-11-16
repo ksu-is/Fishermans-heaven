@@ -1,5 +1,6 @@
 # work in progress
 # This is where the code will be 
+# Enter the name of the fish you would like to catch
 import random
 import time
 
@@ -9,18 +10,18 @@ print ("---------------------------------")
 print ("          Fishing GPS            ")
 print ("---------------------------------")
 time.sleep(1)
-name = input("What is your name fisherman?")
-answer = input("Would you like to go fishing, " + name + "?")
-if answer.lower() == "no":
+name = input("What is the name of the fish you would like to catch? ")
+answer = input("Is the fish freshwater or saltwater? ")
+if answer.lower() == "freshwater":
     fishing == False
 while fishing == True:    
     time.sleep(1)
-    answer = input("Throw out your line, or go home?")
-    if answer == "go home":
+    answer = input("Does it have a large mouth? ")
+    if answer == "yes":
         fishing = False
         er = float(e / (a + b + c + d))
         print("--------------------------------")
-        print("Thanks for playing " + name + "!")
+        print("       You caught a bass!       ")
         print("You caught:", str(a), "cod, ", str(b), "salmon, ", str(c), "shark, ", str(d), "wildfish. \nEfficiency Rate: ", str(er), ".")
     else:
         t = random.randrange(1, 7)
