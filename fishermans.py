@@ -20,6 +20,7 @@ while fishing == True:
     if answer == "exit app":
         fishing = False
         er = float(e / (a + b + c + d))
+        print("------------------------------------")
         print("Thank you for using the fishing GPS!")
         print("You caught:", str(a), "catfish, ", str(b), "bass, ", str(c), "shark, ", str(d), "redfish. \nEfficiency Rate: ", str(er), ".")
     else:
@@ -28,18 +29,22 @@ while fishing == True:
             a += 1
             print("You caught a catfish!")
             print("This fish is located in freshwater")
+            print("bait to use: chicken liver, dough balls, and hotdogs")
         elif t == 2:
             b += 1
             print("You caught a bass!")
             print("This fish is located in freshwater")
+            print("bait to use: artificial lures or worms")
         elif t == 3:
             c += 1
             print("You caught a shark!")
             print("This fish is located in saltwater")
+            print("bait to use: dead or live fish")
         elif t == 4:
             d += 1
             print("You caught a redfish!")
             print("This fish is located in saltwater")
+            print("bait to use: small pieces of octopus")
         elif t >= 5:
             e += 1
             print("You caught nothing!")
