@@ -11,16 +11,16 @@ print ("          Fishing GPS            ")
 print ("---------------------------------")
 time.sleep(1)
 name = input("What is the name of the fish you would like to catch? ")
-answer = input("Is the fish freshwater or saltwater? ")
-if answer.lower() == "freshwater":
+answer = input("Are you going to fish today for the, " + name + "?")
+if answer.lower() == "no":
     fishing == False
 while fishing == True:    
     time.sleep(1)
-    answer = input("Does it have a large mouth? ")
-    if answer == "yes":
+    answer = input("go fish or exit app? ")
+    if answer == "exit app":
         fishing = False
         er = float(e / (a + b + c + d))
-        print("You caught a bass!")
+        print("Thank you for using the fishing GPS!")
         print("You caught:", str(a), "catfish, ", str(b), "bass, ", str(c), "shark, ", str(d), "redfish. \nEfficiency Rate: ", str(er), ".")
     else:
         t = random.randrange(1, 7)
