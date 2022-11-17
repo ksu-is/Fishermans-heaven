@@ -1,9 +1,9 @@
 - [/] Create a repository
 - [/] Create Readme and license
 - [/] Create roadmap
-- [ ] Find sources for project
-- [ ] Run the example codes and see how they work
-- [ ] Create the code
+- [/] Find sources for project
+- [/] Run the example codes and see how they work
+- [/] Create the code
 - [ ] Modify it
 - [ ] Run the code and check for errors
 - [ ] Add any additional information
