@@ -8,7 +8,7 @@ import random
 import time
 
 fishing = True
-a = b = c = d = e = 0 #define multiple variables as same thing
+a = b = c = d = e = f = 0 #define multiple variables as same thing
 print ("---------------------------------")
 print ("          Fishing GPS            ")
 print ("---------------------------------")
@@ -22,12 +22,12 @@ while fishing == True:
     answer = input("Type 'find' and hit enter to start the fish gps, if not type 'exit' to quit: ")
     if answer == "exit":
         fishing = False
-        er = float(e / (a + b + c + d))
+        er = float(g / (a + b + c + d + e + f))
         print("------------------------------------")
         print("Thank you for using the fishing GPS!")
-        print("These were the fish that were generated:", "\n- Freshwater fish: ", str(a), "catfish, ", str(b), "bass ", "\n- Saltwater fish: ", str(c), "shark, ", str(d), "redfish")
+        print("These were the fish that were generated:", "\n- Freshwater fish: ", str(a), "catfish, ", str(b), "bass ", "\n- Saltwater fish: ", str(c), "shark, ", str(d), "redfish", str(e), "barracuda, ", str(f), "brim, ")
     else:
-        t = random.randrange(1, 7)
+        t = random.randrange(1, 9)
         if t == 1:
             a += 1
             print("The GPS came up with a catfish!")
@@ -48,6 +48,16 @@ while fishing == True:
             print("The GPS came up with a redfish!")
             print("This fish is located in saltwater")
             print("bait to use: small pieces of octopus")
-        elif t >= 5:
+        elif t== 5:
             e += 1
+            print("The GPS came up with a barracuda!")
+            print("This fish is located in saltwater")
+            print("bait to use: cigar fish")
+        elif t== 6:
+            f += 1
+            print("The GPS came up with a brim!")
+            print("This fish is located in freshwater")
+            print("bait to use: bread or worm")
+        elif t >= 7:
+            g += 1
             print("There has been an error in the GPS") 
