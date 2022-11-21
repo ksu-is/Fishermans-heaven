@@ -1,9 +1,9 @@
 # work in progress
 # This is where the code will be 
-# Enter the name of the fish you would like to catch
-# Enter if you are going fishing or not
-# If not you will exit the app
-# If you go fishing, it will pull up a random fish and show you the location of it and the bait used to catch it
+# Enter your name and if you would like to use the fishing gps or not
+# After that you will press 'find' if you woild like it to generate a radnom fish to find
+# If not you will exit the app by pressing 'exit'
+# When ypu generate the fish information it will show location and bait of the fish
 import random
 import time
 
