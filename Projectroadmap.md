@@ -4,7 +4,7 @@
 - [/] Find sources for project
 - [/] Run the example codes and see how they work
 - [/] Create the code
-- [ ] Modify it
+- [/] Modify it
 - [ ] Run the code and check for errors
 - [ ] Add any additional information
 - [ ] Review the code
