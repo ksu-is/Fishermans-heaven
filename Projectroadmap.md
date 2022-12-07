@@ -5,9 +5,9 @@
 - [/] Run the example codes and see how they work
 - [/] Create the code
 - [/] Modify it
-- [ ] Run the code and check for errors
-- [ ] Add any additional information
-- [ ] Review the code
-- [ ] Make any more modifcations necessary
-- [ ] Finalize code
-- [ ] Then save progress 
+- [/] Run the code and check for errors
+- [/] Add any additional information
+- [/] Review the code
+- [/] Make any more modifcations necessary
+- [/] Finalize code
+- [/] Then save progress 
